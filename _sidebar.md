@@ -1,1 +1,1 @@
-* [Home](README.md)
+* [Home page](README.md)
