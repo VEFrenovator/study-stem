@@ -10,4 +10,4 @@
 <center><u>Other</u></center>
 
 * [Code of Conduct](CODE_OF_CONDUCT.md)
-* [License](LICENSE)
+* [License](LICENSE.md)
