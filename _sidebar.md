@@ -11,3 +11,4 @@
 
 * [Code of Conduct](CODE_OF_CONDUCT.md)
 * [License](LICENSE.md)
+* [Privacy Policy](privacy_policy.md)
