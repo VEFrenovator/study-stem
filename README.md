@@ -84,12 +84,12 @@ I genuinely welcome any and all feedback. Feel free to open an issue, submit a P
 
 ## Code of Conduct
 
-The full Code of Conduct, and how to enforce it, can be found at [https://vefrenovator.github.io/study-stem/#/CODE_OF_CONDUCT].
+The full Code of Conduct, and how to enforce it, can be found at https://vefrenovator.github.io/study-stem/#/CODE_OF_CONDUCT.
 
 ## License
 
-Licensed under the MIT License. Copyright © 2026 VEFrenovator. For the license text, see [https://vefrenovator.github.io/study-stem/#/LICENSE].
+Licensed under the MIT License. Copyright © 2026 VEFrenovator. For the license text, see https://vefrenovator.github.io/study-stem/#/LICENSE.
 
 ## Privacy Policy
 
-This site uses Google Analytics 4 to collect anonymous usage data. You can read the full Privacy Policy and Google Analytics disclosures at [https://vefrenovator.github.io/study-stem/#/privacy_policy].
+This site uses Google Analytics 4 to collect anonymous usage data. You can read the full Privacy Policy and Google Analytics disclosures at https://vefrenovator.github.io/study-stem/#/privacy_policy.
