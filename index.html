@@ -14,6 +14,20 @@
         <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
         <!-- KaTeX CSS for math formulas -->
         <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css" />
+        <!-- Google consent -->
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('consent', 'default', {
+                'ad_user_data': 'denied',
+                'ad_personalization': 'denied',
+                'ad_storage': 'denied',
+                'analytics_storage': 'denied',
+                'wait_for_update': 500,
+            });
+            gtag('js', new Date());
+            gtag('config', 'G-0JXMBSC6CT');
+        </script>
     </head>
 
     <!-- Google tag (gtag.js) -->
@@ -27,7 +41,53 @@
     </script>
 
     <body>
+        <!-- App -->
         <div id="app"></div>
+        <!-- Cookies -->
+        <div id="cookie-banner"
+            style="position: fixed; bottom: 0; left: 0; right: 0; background: #222; color: #fff; padding: 15px 20px; display: none; justify-content: space-between; align-items: center; z-index: 9999; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; box-shadow: 0 -2px 10px rgba(0,0,0,0.3);">
+            <div style="margin-right: 15px;">
+                This site uses Google Analytics to analyze traffic. You can read more in the <a href="#/privacy_policy"
+                    style="color: #42b983; text-decoration: underline;">Privacy Policy</a>.
+            </div>
+            <div style="display: flex; gap: 10px; flex-shrink: 0;">
+                <button onclick="rejectCookies()"
+                    style="background: transparent; border: 1px solid #fff; color: #fff; padding: 6px 14px; cursor: pointer; border-radius: 4px; font-size: 13px;">Reject</button>
+                <button onclick="acceptCookies()"
+                    style="background: #42b983; border: none; color: #fff; padding: 6px 14px; cursor: pointer; border-radius: 4px; font-size: 13px; font-weight: bold;">Accept</button>
+            </div>
+        </div>
+
+        <script>
+            function acceptCookies() {
+                // Update Google Consent state to granted
+                gtag('consent', 'update', {
+                    'analytics_storage': 'granted',
+                    'ad_storage': 'granted',
+                    'ad_user_data': 'granted',
+                    'ad_personalization': 'granted'
+                });
+                localStorage.setItem('cookie_consent', 'accepted');
+                document.getElementById('cookie-banner').style.display = 'none';
+            }
+
+            function rejectCookies() {
+                localStorage.setItem('cookie_consent', 'rejected');
+                document.getElementById('cookie-banner').style.display = 'none';
+            }
+
+            // Check if the user already made a choice previously
+            window.addEventListener('DOMContentLoaded', () => {
+                const consent = localStorage.getItem('cookie_consent');
+                if (consent === 'accepted') {
+                    acceptCookies();
+                } else if (!consent) {
+                    // Show banner if no choice has been made yet
+                    document.getElementById('cookie-banner').style.display = 'flex';
+                }
+            });
+        </script>
+        <!-- Docsify v4 -->
         <script>
             window.$docsify = {
                 name: 'My digital garden of math, computer science, 3D modeling, electronics, and curious ideas',
@@ -38,7 +98,6 @@
                 subMaxLevel: 2
             }
         </script>
-        <!-- Docsify v4 -->
         <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
         <!-- KaTeX Plugin for Math -->
         <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
