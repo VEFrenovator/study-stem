@@ -1,3 +1,4 @@
+// MARK: google tag
 window.dataLayer = window.dataLayer || [];
 function gtag() {
     window.dataLayer.push(arguments);
@@ -13,6 +14,7 @@ gtag('consent', 'default', {
 gtag('js', new Date());
 gtag('config', 'G-0JXMBSC6CT');
 
+// MARK: docsify config
 window.$docsify = {
     name: 'A digital garden of math, computer science, 3D modeling, electronics, and curious ideas',
     repo: '',
@@ -22,6 +24,7 @@ window.$docsify = {
     subMaxLevel: 2
 };
 
+// MARK: cookie banner
 window.addEventListener('DOMContentLoaded', () => {
     const cookieBanner = document.getElementById('cookie-banner');
     const consent = localStorage.getItem('cookie_consent');
