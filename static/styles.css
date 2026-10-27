@@ -6,6 +6,8 @@
     display: none;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
     padding: 15px 20px;
     background: #222;
     color: #fff;
@@ -16,6 +18,8 @@
 }
 
 .cookie-banner-description {
+    flex: 1 1 20rem;
+    min-width: 0;
     margin-right: 15px;
 }
 
