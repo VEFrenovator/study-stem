@@ -1,6 +1,6 @@
 # Study STEM
 
-Hello! 👋
+Hello! :raised_hand_with_fingers_splayed:
 
 My name is Vladimir, and I am from the Far East of Russia. I am interested in math, CS, competitive programming, and AI development. Also, in my free time, I do Arduino electronics, 3D modeling, chemistry, and physics.
 
@@ -24,7 +24,7 @@ Before I started this site, I had some problems with socialization. I truly want
 ## The Site
 
 <div style="display: flex; justify-content: center; margin: 20px auto">
-<img src="assets/favicon/v1/v1.png" alt="favicon" width="200px">
+<img src="docs/_media/icon.png" alt="favicon" width="200px">
 </div>
 
 The name — Study STEM — expresses the main goal: to learn new things in:
