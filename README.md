@@ -23,9 +23,10 @@ Before I started this site, I had some problems with socialization. I truly want
 
 ## The Site
 
-<div style="display: flex; align-items: center; gap: 50px;">
-    <div>
-        <p>
+<div style="display: flex; justify-content: center; margin: 20px auto">
+<img src="assets/favicon/v1/v1.png" alt="favicon" width="200px">
+</div>
+
 The name — Study STEM — expresses the main goal: to learn new things in:
 
 <ul>
@@ -38,10 +39,6 @@ The name — Study STEM — expresses the main goal: to learn new things in:
 This pretty cool description, which I formulated after a long search for the right words, goes like this:
 
 > A digital garden of math, computer science, 3D modeling, electronics, and curious ideas.
-        </p>
-    </div>
-    <img src="https://vefrenovator.github.io/study-stem/favicon/v1/v1.png" alt="favicon" width="200px" height="auto">
-</div>
 
 Thus, all of this culminated in the final product which you are using right now. Here, I am posting my curious ideas as articles with illustrations — just like a web booklet.
 
