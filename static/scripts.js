@@ -22,7 +22,7 @@ window.$docsify = {
     auto2top: true,
     maxLevel: 3,
     subMaxLevel: 2,
-    logo: "../docs/_media/icon.png"
+    logo: "docs/_media/icon.png"
 };
 
 // MARK: cookie banner
