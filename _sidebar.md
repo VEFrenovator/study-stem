@@ -1,14 +1,10 @@
-<center><u>Main</u></center>
+* Main
+  * [Home page](README.md)
 
-* [Home page](README.md)
-<!-- * [News feed](news_feed.md) -->
+* Articles
+    * No articles for now
 
-<center><u>Articles</u></center>
-
-* No articles for now
-
-<center><u>Other</u></center>
-
-* [Code of Conduct](CODE_OF_CONDUCT.md)
-* [License](LICENSE.md)
-* [Privacy Policy](privacy_policy.md)
+* Other
+  * [Code of Conduct](CODE_OF_CONDUCT.md)
+  * [License](LICENSE.md)
+  * [Privacy Policy](privacy_policy.md)
