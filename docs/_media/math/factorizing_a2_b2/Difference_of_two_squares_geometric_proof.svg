@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 0 30 6"
+font-style="italic" font-size="1" stroke-width=".05">
+<g fill="none" stroke="#000">
+<path d="M2,4H3V3M8,4H9V3" stroke-dasharray=".08"/>
+<path d="M18,5q1.5,1 2,0v.4v-.4l-.3,.1m.4-.8q-1.5-1-2,0v-.4v.4l.3-.1"/>
+<path fill="#bcc" d="M2,3V4H0V1H3V3ZM8,3V4H6V1H9V3H6M14,4V5H12V4ZM12,3V1H15V3ZM18,3V1H21V3ZM27,3H24V1H28V3ZV1M18,5l.7.7l1.4-1.4l-.7-.7z"/>
+</g>
+<g id="x">
+<text id="a" y=".8" x="7.3">a</text>
+<use href="#a" x="6"/>
+</g>
+<use href="#x" x="12"/>
+<use href="#a" x="-6"/>
+<use href="#a" y="2" x="-8"/>
+<g id="y">
+<text id="d" y="2.2" x="4.5">a-b</text>
+<use href="#d" x="6"/>
+</g>
+<use href="#y" x="12"/>
+<use href="#d" y="3.6" x="7.8"/>
+<text y=".8" x="27.2">b</text>
+<text y="3.8" x="3.2">b<tspan x="5.3">b</tspan></text>
+<text y="4.8" x="2.3">b<tspan x="11.3">b</tspan></text>
+</svg>

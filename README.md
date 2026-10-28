@@ -24,7 +24,7 @@ Before I started this site, I had some problems with socialization. I truly want
 ## The Site
 
 <div style="display: flex; justify-content: center; margin: 20px auto">
-<img src="docs/_media/icon.png" alt="favicon" width="200px">
+<img src="docs/_media/favicon/icon.png" alt="favicon" width="200px">
 </div>
 
 The name — Study STEM — expresses the main goal: to learn new things in:
@@ -46,6 +46,7 @@ Thus, all of this culminated in the final product which you are using right now.
 
 Currently, you are on the main page. In the sidebar, you can open any of the published articles, as well as the news feed and other documents.
 
+> [!TIP]
 > Explore articles, have fun, and enjoy. Honestly, you don't even need to finish reading this page. After all, this was all done specifically for you — the readers.
 
 ## Contributing

@@ -23,7 +23,10 @@ window.$docsify = {
     auto2top: true,
     maxLevel: 3,
     subMaxLevel: 2,
-    logo: "docs/_media/icon.png"
+    logo: "../docs/_media/favicon/icon.png",
+    footnotes: {
+        "backlinkIcon": '&#x21a9;&#xfe0e;'
+    }
 };
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -88,4 +91,11 @@ window.addEventListener('DOMContentLoaded', () => {
         localStorage.setItem('is_dark_theme', is_dark_theme);
         updateTheme();
     });
+});
+
+// MARK: Star divider
+customElements.define('star-divider', class extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `<div style="text-align: center; font-size: 2.5rem; line-height: 1;">***</div>`;
+    }
 });
