@@ -19,17 +19,17 @@ window.$docsify = {
     name: 'A digital garden of math, computer science, 3D modeling, electronics, and curious ideas',
     repo: '',
     loadSidebar: true,
+    loadNavbar: true,
     auto2top: true,
     maxLevel: 3,
     subMaxLevel: 2,
     logo: "docs/_media/icon.png"
 };
 
-// MARK: cookie banner
 window.addEventListener('DOMContentLoaded', () => {
+    // MARK: cookie banner
     const cookieBanner = document.getElementById('cookie-banner');
     const consent = localStorage.getItem('cookie_consent');
-
     const updateCookieBannerSpace = () => {
         if (cookieBanner.style.display === 'flex') {
             document.body.style.paddingBottom = `${cookieBanner.offsetHeight}px`;
@@ -65,4 +65,27 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 
     window.addEventListener('resize', updateCookieBannerSpace);
+
+    // MARK: change theme
+    const theme_stylesheet = document.getElementById('theme-stylesheet');
+    const theme_icon = document.getElementById('theme-icon');
+    let is_dark_theme = localStorage.getItem('is_dark_theme') === 'true';
+
+    const updateTheme = () => {
+        if (is_dark_theme) {
+            theme_stylesheet.media = '(prefers-color-scheme: dark)';
+            theme_icon.textContent = 'light_mode';
+        } else {
+            theme_stylesheet.media = '(prefers-color-scheme: light)';
+            theme_icon.textContent = 'dark_mode';
+        }
+    };
+
+    updateTheme();
+
+    document.getElementById('change-theme').addEventListener('click', () => {
+        is_dark_theme = !is_dark_theme;
+        localStorage.setItem('is_dark_theme', is_dark_theme);
+        updateTheme();
+    });
 });

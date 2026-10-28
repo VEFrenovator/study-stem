@@ -54,3 +54,26 @@
     color: #fff;
     font-weight: bold;
 }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+#change-theme {
+    appearance: none;
+    background: transparent;
+    color: inherit;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    line-height: inherit;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}

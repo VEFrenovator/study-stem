@@ -22,7 +22,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@5/dist/themes/addons/vue.min.css">
 
         <!-- Core Dark (add-on) -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@5/dist/themes/addons/core-dark.min.css"
+        <link id="theme-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@5/dist/themes/addons/core-dark.min.css"
             media="(prefers-color-scheme: dark)">
 
         <!-- KaTeX CSS for math formulas (add-on) -->
@@ -35,10 +35,13 @@
         <link
             href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
             rel="stylesheet" />
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=dark_mode,home,language,light_mode" />
 
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-0JXMBSC6CT"></script>
         <script src="//unpkg.com/docsify-material-icons/dist/docsify-material-icons.min.js"></script>
+        
         <!-- My styles & scripts -->
         <link rel="stylesheet" href="static/styles.css">
         <script src="static/scripts.js"></script>
@@ -46,6 +49,21 @@
     </head>
 
     <body class="loading sidebar-chevron-right sidebar-group-box sidebar-toggle-chevron">
+        <!-- Navbar -->
+        <nav id="navbar">
+            <ul>
+                <li><a href="#/"><span class="material-symbols-outlined">home</span></a></li>
+                <li>
+                    <span class="material-symbols-outlined">language</span>
+                    <ul>
+                        <li><a href="#/">EN</a></li>
+                        <li><a href="https://github.com/VEFrenovator/study-stem/issues/new">Request to add a translation</a></li>
+                    </ul>
+                </li>
+                <li><button id="change-theme"><span id="theme-icon" class="material-symbols-outlined">light_mode</span></button></li>
+            </ul>
+        </nav>
+
         <!-- App -->
         <div id="app"></div>
 
