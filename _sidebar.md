@@ -3,7 +3,7 @@
 
 * Articles
     * Math
-      * [Factorizing $a^2+b^2$](docs/drafts/math/factorizing_a2+b2/ru.md)
+      * [Factorizing $a^2+b^2$](docs/math/factorizing_a2_b2.md)
 
 * Other
   * [Code of Conduct](CODE_OF_CONDUCT.md)

@@ -24,7 +24,7 @@
 
 Выведем формулу разности квадратов. Возможно, это даст необходимую интуицию для продвижения к сумме. Итак, прежде всего формулу можно вывести, подразумевая под $a^2$ и $b^2$ реальные квадраты со сторонами $a$ и $b$ соответственно. Если наложить друг на друга одну пару их углов, а стороны пустить параллельно, то заведомая разность $a^2 - b^2$ заключена L-образной форма, оставшейся после высечения меньшего квадрата площади $b^2$ из большего $a^2$.
 
-<img src="docs/_media/maths/factorizing_a2+b2/Difference_of_two_squares_geometric_proof.png" alt="Difference of two squares geometric proof">
+<img src="docs/_media/math/factorizing_a2_b2/Difference_of_two_squares_geometric_proof.png" alt="Difference of two squares geometric proof">
 <p class="img-note">
     Copyright <a href="https://commons.wikimedia.org/wiki/File:Difference_of_two_squares_geometric_proof.svg">cmglee</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 </p>
