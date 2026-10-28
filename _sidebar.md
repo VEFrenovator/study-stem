@@ -2,7 +2,8 @@
   * [Home page](README.md)
 
 * Articles
-    * No articles for now
+    * Math
+      * [Factorizing $a^2+b^2$](docs/drafts/math/factorizing_a2+b2/ru.md)
 
 * Other
   * [Code of Conduct](CODE_OF_CONDUCT.md)

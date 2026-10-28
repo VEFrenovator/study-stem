@@ -77,3 +77,9 @@
     align-items: center;
     justify-content: center;
 }
+
+.img-note {
+    text-align: center;
+    color: rgb(169, 169, 169);
+    margin-bottom: 18;
+}

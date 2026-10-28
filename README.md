@@ -24,7 +24,7 @@ Before I started this site, I had some problems with socialization. I truly want
 ## The Site
 
 <div style="display: flex; justify-content: center; margin: 20px auto">
-<img src="docs/_media/icon.png" alt="favicon" width="200px">
+<img src="docs/_media/favicon/icon.png" alt="favicon" width="200px">
 </div>
 
 The name — Study STEM — expresses the main goal: to learn new things in:
